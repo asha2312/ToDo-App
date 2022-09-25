@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8F8D71828DD66AC001F6D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8D71728DD66AC001F6D4A /* AppDelegate.swift */; };
+		C8F8D71A28DD66AC001F6D4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8D71928DD66AC001F6D4A /* SceneDelegate.swift */; };
+		C8F8D71C28DD66AC001F6D4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8D71B28DD66AC001F6D4A /* ViewController.swift */; };
+		C8F8D71F28DD66AC001F6D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F8D71D28DD66AC001F6D4A /* Main.storyboard */; };
+		C8F8D72228DD66AC001F6D4A /* AshaSharm_ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8F8D72028DD66AC001F6D4A /* AshaSharm_ToDoApp.xcdatamodeld */; };
+		C8F8D72428DD66AF001F6D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F8D72328DD66AF001F6D4A /* Assets.xcassets */; };
+		C8F8D72728DD66AF001F6D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F8D72528DD66AF001F6D4A /* LaunchScreen.storyboard */; };
+		C8F8D73228DD7557001F6D4A /* AddTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8D73128DD7557001F6D4A /* AddTaskVC.swift */; };
+		C8F8D73628DDF91E001F6D4A /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8D73528DDF91E001F6D4A /* TaskViewModel.swift */; };
+		C8F8D73C28DE2334001F6D4A /* CodingTaskInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8D73B28DE2334001F6D4A /* CodingTaskInfoKey.swift */; };
+		C8F8D73E28DE2D66001F6D4A /* AppFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8D73D28DE2D66001F6D4A /* AppFunctions.swift */; };
+		C8F8D74328DF1682001F6D4A /* taskTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8D74128DF1682001F6D4A /* taskTVC.swift */; };
+		C8F8D74428DF1682001F6D4A /* taskTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8F8D74228DF1682001F6D4A /* taskTVC.xib */; };
+		C8F8D74628DF38B1001F6D4A /* TodoDatewise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8D74528DF38B1001F6D4A /* TodoDatewise.swift */; };
+		C8F8D74828DF78DA001F6D4A /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8D74728DF78DA001F6D4A /* AppExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8F8D71428DD66AC001F6D4A /* AshaSharm-ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AshaSharm-ToDoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F8D71728DD66AC001F6D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8F8D71928DD66AC001F6D4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C8F8D71B28DD66AC001F6D4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8F8D71E28DD66AC001F6D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8F8D72128DD66AC001F6D4A /* AshaSharm_ToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AshaSharm_ToDoApp.xcdatamodel; sourceTree = "<group>"; };
+		C8F8D72328DD66AF001F6D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8F8D72628DD66AF001F6D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8F8D72828DD66AF001F6D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F8D73128DD7557001F6D4A /* AddTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskVC.swift; sourceTree = "<group>"; };
+		C8F8D73528DDF91E001F6D4A /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		C8F8D73B28DE2334001F6D4A /* CodingTaskInfoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingTaskInfoKey.swift; sourceTree = "<group>"; };
+		C8F8D73D28DE2D66001F6D4A /* AppFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFunctions.swift; sourceTree = "<group>"; };
+		C8F8D74128DF1682001F6D4A /* taskTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskTVC.swift; sourceTree = "<group>"; };
+		C8F8D74228DF1682001F6D4A /* taskTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = taskTVC.xib; sourceTree = "<group>"; };
+		C8F8D74528DF38B1001F6D4A /* TodoDatewise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDatewise.swift; sourceTree = "<group>"; };
+		C8F8D74728DF78DA001F6D4A /* AppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8F8D71128DD66AC001F6D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8F8D70B28DD66AC001F6D4A = {
+			isa = PBXGroup;
+			children = (
+				C8F8D71628DD66AC001F6D4A /* AshaSharm-ToDoApp */,
+				C8F8D71528DD66AC001F6D4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8F8D71528DD66AC001F6D4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8F8D71428DD66AC001F6D4A /* AshaSharm-ToDoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8F8D71628DD66AC001F6D4A /* AshaSharm-ToDoApp */ = {
+			isa = PBXGroup;
+			children = (
+				C8F8D73928DE22E8001F6D4A /* Utilities */,
+				C8F8D73028DD74DF001F6D4A /* View */,
+				C8F8D72F28DD74C4001F6D4A /* viewModel */,
+				C8F8D71728DD66AC001F6D4A /* AppDelegate.swift */,
+				C8F8D71928DD66AC001F6D4A /* SceneDelegate.swift */,
+				C8F8D71D28DD66AC001F6D4A /* Main.storyboard */,
+				C8F8D72328DD66AF001F6D4A /* Assets.xcassets */,
+				C8F8D72528DD66AF001F6D4A /* LaunchScreen.storyboard */,
+				C8F8D72828DD66AF001F6D4A /* Info.plist */,
+				C8F8D72028DD66AC001F6D4A /* AshaSharm_ToDoApp.xcdatamodeld */,
+			);
+			path = "AshaSharm-ToDoApp";
+			sourceTree = "<group>";
+		};
+		C8F8D72F28DD74C4001F6D4A /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C8F8D73528DDF91E001F6D4A /* TaskViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		C8F8D73028DD74DF001F6D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8F8D74028DF165D001F6D4A /* TableViewCell */,
+				C8F8D71B28DD66AC001F6D4A /* ViewController.swift */,
+				C8F8D73128DD7557001F6D4A /* AddTaskVC.swift */,
+				C8F8D74528DF38B1001F6D4A /* TodoDatewise.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8F8D73928DE22E8001F6D4A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C8F8D73A28DE22FE001F6D4A /* Extensions */,
+				C8F8D73D28DE2D66001F6D4A /* AppFunctions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C8F8D73A28DE22FE001F6D4A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C8F8D73B28DE2334001F6D4A /* CodingTaskInfoKey.swift */,
+				C8F8D74728DF78DA001F6D4A /* AppExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C8F8D74028DF165D001F6D4A /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C8F8D74128DF1682001F6D4A /* taskTVC.swift */,
+				C8F8D74228DF1682001F6D4A /* taskTVC.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8F8D71328DD66AC001F6D4A /* AshaSharm-ToDoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8F8D72B28DD66AF001F6D4A /* Build configuration list for PBXNativeTarget "AshaSharm-ToDoApp" */;
+			buildPhases = (
+				C8F8D71028DD66AC001F6D4A /* Sources */,
+				C8F8D71128DD66AC001F6D4A /* Frameworks */,
+				C8F8D71228DD66AC001F6D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AshaSharm-ToDoApp";
+			productName = "AshaSharm-ToDoApp";
+			productReference = C8F8D71428DD66AC001F6D4A /* AshaSharm-ToDoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8F8D70C28DD66AC001F6D4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C8F8D71328DD66AC001F6D4A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = C8F8D70F28DD66AC001F6D4A /* Build configuration list for PBXProject "AshaSharm-ToDoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8F8D70B28DD66AC001F6D4A;
+			productRefGroup = C8F8D71528DD66AC001F6D4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8F8D71328DD66AC001F6D4A /* AshaSharm-ToDoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8F8D71228DD66AC001F6D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F8D74428DF1682001F6D4A /* taskTVC.xib in Resources */,
+				C8F8D72728DD66AF001F6D4A /* LaunchScreen.storyboard in Resources */,
+				C8F8D72428DD66AF001F6D4A /* Assets.xcassets in Resources */,
+				C8F8D71F28DD66AC001F6D4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8F8D71028DD66AC001F6D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F8D72228DD66AC001F6D4A /* AshaSharm_ToDoApp.xcdatamodeld in Sources */,
+				C8F8D73628DDF91E001F6D4A /* TaskViewModel.swift in Sources */,
+				C8F8D71C28DD66AC001F6D4A /* ViewController.swift in Sources */,
+				C8F8D74828DF78DA001F6D4A /* AppExtensions.swift in Sources */,
+				C8F8D73E28DE2D66001F6D4A /* AppFunctions.swift in Sources */,
+				C8F8D73228DD7557001F6D4A /* AddTaskVC.swift in Sources */,
+				C8F8D71828DD66AC001F6D4A /* AppDelegate.swift in Sources */,
+				C8F8D71A28DD66AC001F6D4A /* SceneDelegate.swift in Sources */,
+				C8F8D73C28DE2334001F6D4A /* CodingTaskInfoKey.swift in Sources */,
+				C8F8D74328DF1682001F6D4A /* taskTVC.swift in Sources */,
+				C8F8D74628DF38B1001F6D4A /* TodoDatewise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8F8D71D28DD66AC001F6D4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8F8D71E28DD66AC001F6D4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8F8D72528DD66AF001F6D4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8F8D72628DD66AF001F6D4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8F8D72928DD66AF001F6D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8F8D72A28DD66AF001F6D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8F8D72C28DD66AF001F6D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTA5895B4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AshaSharm-ToDoApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Asha.AshaSharm-ToDoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8F8D72D28DD66AF001F6D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTA5895B4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AshaSharm-ToDoApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Asha.AshaSharm-ToDoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8F8D70F28DD66AC001F6D4A /* Build configuration list for PBXProject "AshaSharm-ToDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8F8D72928DD66AF001F6D4A /* Debug */,
+				C8F8D72A28DD66AF001F6D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8F8D72B28DD66AF001F6D4A /* Build configuration list for PBXNativeTarget "AshaSharm-ToDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8F8D72C28DD66AF001F6D4A /* Debug */,
+				C8F8D72D28DD66AF001F6D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C8F8D72028DD66AC001F6D4A /* AshaSharm_ToDoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C8F8D72128DD66AC001F6D4A /* AshaSharm_ToDoApp.xcdatamodel */,
+			);
+			currentVersion = C8F8D72128DD66AC001F6D4A /* AshaSharm_ToDoApp.xcdatamodel */;
+			path = AshaSharm_ToDoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C8F8D70C28DD66AC001F6D4A /* Project object */;
+}
